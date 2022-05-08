@@ -36,7 +36,6 @@ function good_response(){
     var intext = document.createElement("p");
     intext.className = "from-them"
     const items = ["Im so sorry you had to experience that" , "you didn't deserve that, and you deserve support now", "I want you to know youre not alone",
-    "Feeling that way makes sense to me. I would feel like that too."
 ]
     var item = items[Math.floor(Math.random()*items.length)];
     intext.innerHTML = item;
